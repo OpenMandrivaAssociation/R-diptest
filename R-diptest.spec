@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.75_1
+Version:          0.75.4
 Release:          1
 Summary:          Hartigan's dip test statistic for unimodality - corrected code
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.75-1.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/diptest_0.75-4.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
 %description
@@ -41,11 +41,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/extraData
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.75_1-1
-+ Revision: 775929
-- Import R-diptest
-- Import R-diptest
-

@@ -1,2 +1,4 @@
+removed_sources:
+  diptest_0.75-1.tar.gz: d8d7740958089f940733a2691181e140d2fc9bff
 sources:
-  "diptest_0.75-1.tar.gz": d8d7740958089f940733a2691181e140d2fc9bff
+  diptest_0.75-4.tar.gz: 2ec04fc33d013d6253f9b14bab5853db564a7c85
