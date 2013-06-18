@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.75.4
-Release:          1
+Release:          2
 Summary:          Hartigan's dip test statistic for unimodality - corrected code
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
